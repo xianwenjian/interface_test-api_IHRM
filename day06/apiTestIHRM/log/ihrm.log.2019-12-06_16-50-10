@@ -1,0 +1,4 @@
+2019-12-06 16:50:10,051 INFO [root] [test_irhm_emp_parameterized.py(test01_add_emp:30)] - parameterized添加员工接口返回的数据为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202872843427467264'}}
+2019-12-06 16:50:10,129 INFO [root] [test_irhm_emp_parameterized.py(test02_query_emp:51)] - parameterized查询员工接口返回的数据为: {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 16:50:10,207 INFO [root] [test_irhm_emp_parameterized.py(test03_modify_emp:62)] - parameterized修改员工接口返回的数据为： {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 16:50:10,318 INFO [root] [test_irhm_emp_parameterized.py(test04_delete_emp:83)] - parameterized删除员工接口返回的数据为： {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}

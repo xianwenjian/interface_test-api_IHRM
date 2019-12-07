@@ -1,0 +1,11 @@
+2019-12-06 16:50:09,160 INFO [root] [__init__.py(<module>:8)] - 日志等级相同, 可以 打印出来
+2019-12-06 16:50:09,160 WARNING [root] [__init__.py(<module>:9)] - 日志等级高于设置的info, 可以打印出来
+2019-12-06 16:50:09,350 INFO [root] [test_ihrm_login.py(test01_login_success:30)] - 1登录接口返回的json数据是: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd43a6c39-b748-4b55-bc5c-59c70822f497'}
+2019-12-06 16:50:09,350 INFO [root] [test_ihrm_login.py(test01_login_success:41)] - 保存登录的token和Content-Type: {'Content-Type': 'application/json', 'Authorization': 'Bearer d43a6c39-b748-4b55-bc5c-59c70822f497'}
+2019-12-06 16:50:09,425 INFO [root] [test_ihrm_login.py(test02_mobile_is_error:46)] - 2登录接口返回的json数据是: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 16:50:09,534 INFO [root] [test_ihrm_login.py(test03_password_is_error:53)] - 3登录接口返回的json数据是: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 16:50:09,612 INFO [root] [test_ihrm_login.py(test04_none_params:60)] - 4登录接口返回的json数据是: {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 16:50:09,706 INFO [root] [test_ihrm_login.py(test05_mobile_is_null:67)] - 5登录接口返回的json数据是: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 16:50:09,786 INFO [root] [test_ihrm_login.py(test06_password_is_null:76)] - 6登录接口返回的json数据是: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 16:50:09,879 INFO [root] [test_ihrm_login.py(test07_extra_params:84)] - 7登录接口返回的json数据是: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '075b906c-9e66-4e6e-bfc5-2a4d2b628cc4'}
+2019-12-06 16:50:09,957 INFO [root] [test_ihrm_login.py(test08_less_params:92)] - 8登录接口返回的json数据是: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
